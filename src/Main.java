@@ -40,6 +40,14 @@ public class Main {
         }
     }
 
+    /**
+     *
+     * Generate getter and setter on Java with ease! PS: Intended to use for labs where typing them are still the norm!!
+     *
+     * @param dataType Data type
+     * @param varName Variable name
+     * @return The getter and setter to be printed
+     */
     private static String generateGetterAndSetter(String dataType, String varName) {
         String getter =
                 "\tpublic " + dataType + " get" + Character.toUpperCase(varName.charAt(0)) + varName.substring(1) +

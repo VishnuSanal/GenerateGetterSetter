@@ -7,9 +7,9 @@ Generate getter and setter on Java with ease! PS: Intended to use for labs where
 ```
 git clone https://github.com/VishnuSanal/GenerateGetterSetter.git
 ```
-- Move to `res` folder 
+- Move to `src` folder 
 ```
-cd res
+cd src
 ```
 - Build with Java
 ```

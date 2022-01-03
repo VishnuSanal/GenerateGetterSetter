@@ -22,6 +22,8 @@ java Main YOUR_DATA_TYPE YOUR_VAR_NAME
 java Main String name String value int i
 ```
 
+![SS](https://user-images.githubusercontent.com/50027064/147965212-c21bc843-43bc-40a5-844d-e8b4fddf414f.png)
+
 # PS!
 
 Thank you for using! Do star the repo and if you're using it in your labs, **make sure you use it at your own risk** and if it fails and your teacher finds this tool, ask them to star my repo as well :D

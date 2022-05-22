@@ -52,7 +52,7 @@ public class Main {
                 "\tpublic " + dataType + " get" + Character.toUpperCase(varName.charAt(0)) + varName.substring(1) +
                         "() {\n\t\treturn " + varName + ";\n\t}";
         String setter = "\tpublic void set" + Character.toUpperCase(varName.charAt(0)) + varName.substring(1) +
-                "() {\n\t\tthis." + varName + " = " + varName + ";\n\t}";
+                "(" + dataType + " " + varName + ") {\n\t\tthis." + varName + " = " + varName + ";\n\t}";
 
         return getter + "\n\n" + setter;
     }
